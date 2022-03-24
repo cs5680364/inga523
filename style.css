@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 86.6vh;
+}
+
+/*NAV*/
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+nav {
+    float: left; 
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #bd33a4;
+}
+
+/*FORM*/
+
+.form-entrada{
+    width: 320px;
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Verdana;
+    color : white;
+}
+
+.form-salida{
+    width: 300px;
+    background: #F4F2F4;
+    padding: 10px;
+    margin:auto;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: Verdana;
+    color : white;
+}
+
+.form-entrada h4{
+    font-size:15px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-salida h4{
+    font-size:15px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-salida p{
+    color:black;
+}
+
+.controls{
+    width: 100%;
+    background-color: #eee;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    /* border-color:1 1px solid blueviolet; */
+    
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+.form-entrada .botons{
+    width: 100%;
+    background: #e0e0df;
+    border:none;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    color:white;
+    margin:16px 0;
+    font-size: 16px;
+}
+
+.form-entrada .botons:active{
+    transform: scale(0.98);
+    background-color: #09c3da;
+}
+
+
+footer{
+    width: 100%;
+    background: black;
+    color: #fff;
+    padding :13px;
+    margin: auto;
+    position:absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.container-footer{
+    width: 100%;
+    background-color: black;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.container-footer p,a{
+    font-family: Verdana;
+}
+
+.container-footer a{
+    color:#bd33a4;
+    text-decoration: none;
+}
