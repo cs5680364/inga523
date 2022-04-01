@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #fff;
-
-    position: relative;
-    padding-bottom: 3em;
-    min-height: 86.6vh;
-}
-
 /*NAV*/
 
 header {
@@ -61,7 +53,7 @@ nav ul li a {
 }
 
 .form-salida{
-    width: 300px;
+    width: 320px;
     background: #F4F2F4;
     padding: 10px;
     margin:auto;
@@ -123,8 +115,7 @@ footer{
     background: black;
     color: #fff;
     padding :13px;
-    margin: auto;
-    position:absolute;
+    position:fixed;
     text-align: center;
     bottom: 0;
 }
